@@ -1,0 +1,64 @@
+/* tag de comentario */
+/* podemos selemcionar uma tag pelo nome<pelo id (identificador unico ou pela classe.) */
+body{
+    /* altera a cor de fundo do site */
+    background-color: black;
+    /* insere um aimagem no fundo site */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdlXOZfBlUQMnz3gBetj3-oon22S3WodwG1A&s);
+    /* faz com que a imagem nao repita */
+    background-repeat: no-repeat;
+    /* faz com que a imagem cubra todo espaco do site */
+    background-size: cover;
+}
+
+
+
+p{
+
+    color: darkred;
+}
+/* sempre que chamamos uma tag pelo id,adicvionamos o sinal de (#) no inicio */
+#paragrafo{
+    color: rgb(0, 204, 255);
+}
+
+/* sempre que chamamos uma tag pela classe adicionamos o sinal de "." no inicio */
+.titulo{
+     /* adicionar um subliando ao texto */
+    text-decoration: underline;
+    /* altera o tamanho da fonte,medidas em (px,rem */
+    font-size: 1.6rem;
+    /* seleciona a familia da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    /* altera o nivel de negrito da fonte  */
+    font-weight: 400;
+
+}
+
+img{
+    /* altera a altura da imagem */
+    height:480px ;
+    /* altera a altura da imagem */
+    width:100% ;
+
+}
+ul{
+    /* altrera o estilo da lista */
+    list-style: none;
+    display: flex;
+    li{
+        /* cria um espacamento interno */
+        padding: 10px;
+        /* altera a cor de fundo */
+        background-color: rgb(0, 187, 140);
+        /* cria um espacamento entre itens */
+        gap: 10px;
+
+      /* altera a cor da fonte */
+      color: aqua;
+
+        a{
+            text-decoration: none;
+        }
+    }
+}
